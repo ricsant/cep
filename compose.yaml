@@ -1,0 +1,5 @@
+services:
+  spring-app:
+    image: cep:latest
+    ports:
+      - "8080:8080"
