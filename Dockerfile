@@ -4,6 +4,9 @@ FROM openjdk:21-jdk
 # Copiando da raiz do projeto para a raiz do docker
 COPY . .
 
+# Ensure mvnw is executable
+RUN chmod +x mvnw
+
 # Rodar o maven para gerar imagem
 RUN ./mvnw clean install
 
