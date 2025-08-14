@@ -1,4 +1,4 @@
-# Usa uma imagem base com Java 17
+# Usa uma imagem base com Java 21
 FROM openjdk:21-jdk
 
 # Copiando da raiz do projeto para a raiz do docker
